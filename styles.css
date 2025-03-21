@@ -279,6 +279,11 @@ nav {
     justify-content: center;
 }
 
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 /* ============= ABOUT SECTION ============= */
 .about-content {
     display: flex;
@@ -288,6 +293,12 @@ nav {
 
 .about-image {
     flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .about-text {
