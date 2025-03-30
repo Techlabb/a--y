@@ -1,8 +1,8 @@
 /* ============= GLOBAL STYLES ============= */
 :root {
     /* Light Theme Colors */
-    --primary-color: #4361ee;
-    --secondary-color: #3f37c9;
+    --primary-color: #1792d2;
+    --secondary-color: #143774;
     --accent-color: #4cc9f0;
     --background-color: #ffffff;
     --secondary-background: #f8f9fa;
@@ -16,8 +16,8 @@
 
 /* Dark Theme Colors */
 [data-theme="dark"] {
-    --primary-color: #4361ee;
-    --secondary-color: #3f37c9;
+    --primary-color: #1792d2;
+    --secondary-color: #143774;
     --accent-color: #4cc9f0;
     --background-color: #121212;
     --secondary-background: #1e1e1e;
