@@ -315,7 +315,7 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Front-End Developer</h3>
+                        <h3>Software Developer</h3>
                         <h4>GEN 128 Business Solutions</h4>
                         <p class="date">Oct 2024 - Present</p>
                         <p>Developed and maintained responsive websites using React and modern CSS techniques. Collaborated with UX designers to implement user-friendly interfaces and optimized web performance.</p>
@@ -362,8 +362,8 @@
                         <div class="testimonial-author">
                             <img src="/api/placeholder/60/60" alt="John Doe">
                             <div class="author-info">
-                                <h4>John Doe</h4>
-                                <p>Project Manager, Company Name</p>
+                                <h4>Lawrence</h4>
+                                <p>Full Stack Developer, Gen128</p>
                             </div>
                         </div>
                     </div>
@@ -376,8 +376,8 @@
                         <div class="testimonial-author">
                             <img src="/api/placeholder/60/60" alt="Jane Smith">
                             <div class="author-info">
-                                <h4>Jane Smith</h4>
-                                <p>CEO, Company Name</p>
+                                <h4>Samuel</h4>
+                                <p>Web Developer, Creastech</p>
                             </div>
                         </div>
                     </div>
@@ -390,8 +390,8 @@
                         <div class="testimonial-author">
                             <img src="/api/placeholder/60/60" alt="Michael Johnson">
                             <div class="author-info">
-                                <h4>Michael Johnson</h4>
-                                <p>Marketing Director, Company Name</p>
+                                <h4>Abimbola</h4>
+                                <p>Software Engineer, Renda</p>
                             </div>
                         </div>
                     </div>
@@ -504,11 +504,15 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Ayomiposi. All Rights Reserved.</p>
+                <p>&copy; <span id="year"></span> Ayomiposi. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
