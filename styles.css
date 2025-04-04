@@ -287,24 +287,24 @@ nav {
 }
 /* ============= ABOUT SECTION ============= */
 .about-content {
-    display: flex;
-    gap: 50px;
-    align-items: center;
+    /* display: flex; */
+    /* gap: 50px; */
+    /* align-items: center; */
 }
 
-.about-image {
+/* .about-image {
     flex: 1;
-}
-
+} */
+/* 
 .about-image img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-}
+} */
 
-.about-text {
+/* .about-text {
     flex: 2;
-}
+} */
 
 .about-text h3 {
     font-size: 1.8rem;
