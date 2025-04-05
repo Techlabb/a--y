@@ -407,9 +407,9 @@ nav {
     transition: var(--transition);
 }
 
-.project-card:hover {
+/* .project-card:hover {
     transform: translateY(-10px);
-}
+} */
 
 .project-image img {
     width: 100%;
