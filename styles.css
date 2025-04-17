@@ -285,6 +285,11 @@ nav {
     height: auto;
     border-radius: 50%;
 }
+
+.highlight {
+    transition: opacity 0.5s ease-in-out;
+}
+
 /* ============= ABOUT SECTION ============= */
 .about-content {
     /* display: flex; */

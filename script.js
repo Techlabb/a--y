@@ -100,3 +100,22 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
+
+
+const words = ["Ayomiposi", "a Developer", "a Writer", "a Creator"];
+let currentIndex = 0;
+
+function changeText() {
+    const textElement = document.getElementById("changing-text");
+    textElement.style.opacity = '0';
+    
+    setTimeout(() => {
+        textElement.textContent = words[currentIndex];
+        textElement.style.opacity = '1';
+        currentIndex = (currentIndex + 1) % words.length;
+    }, 500);
+}
+
+changeText();
+
+setInterval(changeText, 2000);
